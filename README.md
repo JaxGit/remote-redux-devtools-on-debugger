@@ -39,8 +39,6 @@ You can ignore this guide if you used [default options](https://github.com/zalmo
 ```bash
 # remote-redux-devtools module & remotedev CLI tool
 $ npm install --save-dev remote-redux-devtools
-# remotedev-debugger-replace CLI tool
-$ npm install --save-dev remote-redux-devtools-on-debugger
 ```
 
 #### Add to scripts field (package.json)
