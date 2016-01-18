@@ -1,6 +1,6 @@
 {
   "name": "remote-redux-devtools-on-debugger-slider",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "remote-redux-devtools monitor on react-native debugger UI, slider version",
   "main": "index.js",
   "files": [
