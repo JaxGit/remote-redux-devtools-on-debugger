@@ -1,14 +1,14 @@
 {
-  "name": "remote-redux-devtools-on-debugger",
-  "version": "0.1.0",
-  "description": "remote-redux-devtools monitor on react-native debugger UI",
+  "name": "remote-redux-devtools-on-debugger-slider",
+  "version": "0.1.2",
+  "description": "remote-redux-devtools monitor on react-native debugger UI, slider version",
   "main": "index.js",
   "files": [
     "bin",
     "debugger.html"
   ],
   "bin": {
-    "remotedev-debugger-replace": "bin/replaceDebugger.js"
+    "remotedev-debugger-replace-with-slider": "bin/replaceDebugger.js"
   },
   "scripts": {
     "clean": "rm bundle.js debugger.html",
@@ -27,7 +27,8 @@
     "devtools",
     "react",
     "native",
-    "debugger"
+    "debugger",
+    "slider"
   ],
   "authors": [
     "Jhen <developer@jhen.me> (https://github.com/jhen0409)",

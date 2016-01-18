@@ -6,14 +6,24 @@ Inject [remote-redux-devtools](https://github.com/zalmoxisus/remote-redux-devtoo
 
 ## Installation
 
+With logMonitor
 ```bash
 $ npm install -g remote-redux-devtools-on-debugger
+```
+With sliderMonitor
+```bash
+$ npm install -g remote-redux-devtools-on-debugger-slider
 ```
 
 ## Usage
 
+With logMonitor
 ```bash
 $ remotedev-debugger-replace --hostname localhost --port 5678
+```
+With sliderMonitor
+```bash
+$ remotedev-debugger-replace-with-slider --hostname localhost --port 5678
 ```
 
 The `./node_modules/react-native/local-cli/server/util/debugger.html` will be replaced.
@@ -35,9 +45,15 @@ $ npm install --save-dev remote-redux-devtools-on-debugger
 
 #### Add to scripts field (package.json)
 
+With logMonitor
 ```json
 "debugger-replace": "remotedev-debugger-replace --hostname localhost --port 5678",
 "remotedev": "npm run debugger-replace && remotedev --hostname localhost --port 5678",
+```
+With sliderMonitor
+```json
+"debugger-replace-with-slider": "remotedev-debugger-replace-with-slider --hostname localhost --port 5678",
+"remotedev": "npm run debugger-replace-with-slider && remotedev --hostname localhost --port 5678",
 ```
 
 If you debug on real device, you should use LAN IP instead of `localhost`.
