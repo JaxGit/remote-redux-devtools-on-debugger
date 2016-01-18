@@ -1,6 +1,6 @@
 {
   "name": "remote-redux-devtools-on-debugger-slider",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "remote-redux-devtools monitor on react-native debugger UI, slider version",
   "main": "index.js",
   "files": [
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jhen0409/remote-redux-devtools-on-debugger.git"
+    "url": "git+https://github.com/JaxGit/remote-redux-devtools-on-debugger/tree/sliderMonitor"
   },
   "keywords": [
     "remote",
